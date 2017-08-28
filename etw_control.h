@@ -9,12 +9,21 @@
 #define ETW_SESSION_BUFFER_MAX_SIZE 64
 #define ETW_SESSION_BUFFER_MIN_SIZE 8
 
-// Set up ETW sessions & Enable ETW provider
-TRACEHANDLE start_etw_session(PEVENT_TRACE_PROPERTIES);
-// Stop ETW sessions
-TDHSTATUS stop_etw_session(TRACEHANDLE, PEVENT_TRACE_PROPERTIES);
 
-// Allocate space for session properties & do some simple settings
-PEVENT_TRACE_PROPERTIES allocate_session_properties(PWSTR, PWSTR);
-// Free session properties
-void free_session_properties(PEVENT_TRACE_PROPERTIES);
+class Etw_control {
+public:
+	Etw_control();
+	~Etw_control();
+
+	// Enable ETW providers for sessions & Enable filtering
+	TDHSTATUS enable_etw_provider(TRACEHANDLE, LPCGUID);
+
+private:
+	PEVENT_TRACE_PROPERTIES p2session_properties = NULL;
+	TRACEHANDLE session_handle = NULL;
+
+	// Set up ETW sessions & Enable ETW provider
+	TDHSTATUS start_etw_session(PWSTR etw_session_name, PWSTR etw_logfile_name);
+	// Stop ETW sessions
+	TDHSTATUS stop_etw_session();
+};

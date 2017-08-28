@@ -14,30 +14,22 @@
 // Attention here!!
 #pragma comment(lib,"tdh.lib")
 
+
+//Microsoft-Windows-Eventlog  {D8909C24-5BE9-4502-98CA-AB7BDC24899D}
+static const GUID provider_guid_eventlog = { 0xAE4BD3BE, 0xF36F, 0x45B6,{ 0x8D, 0x21, 0xBD, 0xD6, 0xFB, 0x83, 0x28, 0x53 } };
+//Microsoft-Windows-Audio AE4BD3BE-F36F-45B6-8D21-BDD6FB832853
+static const GUID provider_guid_audio = { 0xD8909C24, 0x5BE9, 0x4502,{ 0x98, 0xCA, 0xAB, 0x7B, 0xDC, 0x24, 0x89, 0x9D } };
+//Microsoft-Windows-Kernel-File EDD08927-9CC4-4E65-B970-C2560FB5C289
+static const GUID provider_guid_file = { 0xEDD08927, 0x9CC4, 0x4E65,{ 0xB9, 0x70, 0xC2, 0x56, 0x0F, 0xB5, 0xC2, 0x89 } };
+GUID provider_guid = provider_guid_file;
+
 using namespace std;
 
 void enumerate_providers();
 
 int main(int argc, char *argv[]) {
-	PEVENT_TRACE_PROPERTIES p2darpa_session_properties = allocate_session_properties(ETW_SESSION_NAME, ETW_LOGFILE_NAME);
-	TRACEHANDLE darpa_session_handle = start_etw_session(p2darpa_session_properties);
-	if (NULL == darpa_session_handle) {
-		printf("start_etw_session() failed!\n");
-		getchar();
-	}
-	else {
-		printf("start_etw_session() successed! press any key to continue...\n");
-		getchar();
-		TDHSTATUS stop_session_status = stop_etw_session(darpa_session_handle, p2darpa_session_properties);
-		if (ERROR_SUCCESS != stop_session_status) {
-			printf("Stop trace session failed! %lu. press any key to continue...\n", stop_session_status);
-			getchar();
-			return 1;
-		}
-		free_session_properties(p2darpa_session_properties);
-		printf("stop_etw_session() successed! press any key to continue...\n");
-		getchar();
-	}
+	Etw_control etw;
+
 	return 0;
 }
 
