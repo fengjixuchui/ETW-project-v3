@@ -16,14 +16,18 @@ public:
 	~Etw_control();
 
 	// Enable ETW providers for sessions & Enable filtering
-	TDHSTATUS enable_etw_provider(TRACEHANDLE, LPCGUID);
+	TDHSTATUS enable_etw_provider(LPCGUID provider_guid);
+	// Open trace session for consumer
+	TRACEHANDLE setup_trace_logfile(PEVENT_RECORD_CALLBACK call_back, PEVENT_TRACE_BUFFER_CALLBACK buffer_call_back);
 
 private:
 	PEVENT_TRACE_PROPERTIES p2session_properties = NULL;
 	TRACEHANDLE session_handle = NULL;
+	EVENT_TRACE_LOGFILE trace_logfile;
 
 	// Set up ETW sessions & Enable ETW provider
 	TDHSTATUS start_etw_session(PWSTR etw_session_name, PWSTR etw_logfile_name);
 	// Stop ETW sessions
 	TDHSTATUS stop_etw_session();
+
 };
