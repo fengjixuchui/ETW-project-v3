@@ -21,9 +21,11 @@
   <ItemGroup>
     <ClCompile Include="etw_control.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="trace_parser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="etw_control.h" />
+    <ClInclude Include="trace_parser.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

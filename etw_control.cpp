@@ -8,24 +8,48 @@
 #include <stdio.h>
 
 #include "etw_control.h"
+#include "trace_parser.h"
 
 
 using namespace std;
 
 Etw_control::Etw_control() {
 	TDHSTATUS start_etw_status = start_etw_session(ETW_SESSION_NAME, ETW_LOGFILE_NAME);
-	if (ERROR_SUCCESS == start_etw_status) {
+	if (ERROR_SUCCESS != start_etw_status) {
 		wprintf(L"start_etw_status() failed with %lu\n", start_etw_status);
 	}
-	wprintf(L"start_etw_status() successfully\n");
+	else
+		wprintf(L"start_etw_status() successfully\n");
+
+	TRACEHANDLE handle = setup_trace_logfile((PEVENT_RECORD_CALLBACK)(Trace_parser::parser_event), NULL);
+	if (INVALID_PROCESSTRACE_HANDLE == handle) {
+		wprintf(L"setup_trace_logfile() failed with %lu!\n", GetLastError());
+	}
+	else
+		wprintf(L"setup_trace_logfile() successfully!\n");
+
+	TDHSTATUS process_status = ProcessTrace(&trace_handle, 1, 0, 0);
+	if (ERROR_SUCCESS == process_status) {
+		wprintf(L"ProcessTrace() failed with %lu!\n", process_status);
+	}
+	else
+		wprintf(L"ProcessTrace() successfully!\n");
 }
 
 Etw_control::~Etw_control() {
 	TDHSTATUS stop_etw_status = stop_etw_session();
-	if (ERROR_SUCCESS == stop_etw_status) {
+	if (ERROR_SUCCESS != stop_etw_status) {
 		wprintf(L"stop_etw_status() failed with %lu\n", stop_etw_status);
 	}
-	wprintf(L"stop_etw_status() successfully\n");
+	else
+		wprintf(L"stop_etw_status() successfully\n");
+
+	TDHSTATUS close_status = CloseTrace(trace_handle);
+	if (ERROR_SUCCESS == close_status) {
+		wprintf(L"CloseTrace() failed with %lu!\n", close_status);
+	}
+	else
+		wprintf(L"CloseTrace() successfully!\n");
 }
 
 TDHSTATUS Etw_control::start_etw_session(PWSTR etw_session_name, PWSTR etw_logfile_name) {
@@ -116,6 +140,7 @@ TDHSTATUS Etw_control::enable_etw_provider(LPCGUID provider_guid) {
 }
 
 // Open trace session for consumer
+// After calling OpenTrace, call the ProcessTrace function to process the events. When you have finished processing events, call the CloseTrace function.
 TRACEHANDLE Etw_control::setup_trace_logfile(PEVENT_RECORD_CALLBACK call_back, PEVENT_TRACE_BUFFER_CALLBACK buffer_call_back) {
 	ZeroMemory(&trace_logfile, sizeof(EVENT_TRACE_LOGFILE));
 	trace_logfile.LoggerName = ETW_SESSION_NAME;
@@ -127,6 +152,6 @@ TRACEHANDLE Etw_control::setup_trace_logfile(PEVENT_RECORD_CALLBACK call_back, P
 	trace_logfile.BufferCallback = buffer_call_back;
 	trace_logfile.EventRecordCallback = call_back;
 
-	TRACEHANDLE session_handle = OpenTrace(&trace_logfile);
-	return session_handle;
+	trace_handle = OpenTrace(&trace_logfile);
+	return trace_handle;
 }

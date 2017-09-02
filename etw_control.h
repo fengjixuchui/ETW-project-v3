@@ -1,7 +1,7 @@
 #pragma once
 
 #define ETW_SESSION_NAME_MAX_LENGTH 20 
-#define ETW_SESSION_NAME L"darpa_detection" // the length of ETW_SESSION_NAME should not larger than ETW_SESSION_NAME_MAX_LENGTH
+#define ETW_SESSION_NAME L"darpa_detections" // the length of ETW_SESSION_NAME should not larger than ETW_SESSION_NAME_MAX_LENGTH
 #define ETW_LOGFILE_NAME_MAX_LENGTH 100
 #define ETW_LOGFILE_NAME L"E:\\Programming\\ETW_project\\User level providers\\logfile\\demo.etl"
 
@@ -23,6 +23,7 @@ public:
 private:
 	PEVENT_TRACE_PROPERTIES p2session_properties = NULL;
 	TRACEHANDLE session_handle = NULL;
+	TRACEHANDLE trace_handle = NULL;
 	EVENT_TRACE_LOGFILE trace_logfile;
 
 	// Set up ETW sessions & Enable ETW provider
