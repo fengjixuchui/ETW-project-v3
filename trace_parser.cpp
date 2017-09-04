@@ -13,8 +13,7 @@
 
 using namespace std;
 
-VOID WINAPI Trace_parser::parser_event(PEVENT_TRACE Buffer) {
-	PEVENT_TRACE temp = Buffer;
+VOID WINAPI Trace_parser::parser_event(PEVENT_RECORD Buffer) {
 	wcout << "successful----------------" << endl;
 	return;
 }

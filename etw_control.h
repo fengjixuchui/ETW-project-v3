@@ -21,7 +21,7 @@ public:
 	// Enable ETW providers for sessions & Enable filtering
 	TDHSTATUS enable_etw_provider(LPCGUID provider_guid);
 	// Open trace session for consumer
-	TRACEHANDLE open_etw_trace(PEVENT_CALLBACK call_back, PEVENT_TRACE_BUFFER_CALLBACK buffer_call_back);
+	TRACEHANDLE open_etw_trace(PEVENT_RECORD_CALLBACK call_back, PEVENT_TRACE_BUFFER_CALLBACK buffer_call_back);
 
 private:
 	PEVENT_TRACE_PROPERTIES p2session_properties = NULL;
