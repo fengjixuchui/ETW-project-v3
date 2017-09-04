@@ -29,17 +29,29 @@ int main(int argc, char *argv[]) {
 	GUID provider_guid_file = { 0xEDD08927, 0x9CC4, 0x4E65,{ 0xB9, 0x70, 0xC2, 0x56, 0x0F, 0xB5, 0xC2, 0x89 } };
 	GUID provider_guid = provider_guid_file;
 
+	// query etw session's information
+	//ULONG session_properites_size = sizeof(EVENT_TRACE_PROPERTIES) + (ETW_SESSION_NAME_MAX_LENGTH + ETW_LOGFILE_NAME_MAX_LENGTH) * sizeof(WCHAR);;
+	//PEVENT_TRACE_PROPERTIES p2session_properties = (PEVENT_TRACE_PROPERTIES)malloc(session_properites_size);
+	//p2session_properties->Wnode.BufferSize = 1024;
+	//TDHSTATUS query_status = QueryTrace(NULL, KERNEL_LOGGER_NAME, p2session_properties);
+
 
 	Etw_control etw;
 	Trace_parser parser;
 
-	TDHSTATUS provider_status = etw.enable_etw_provider(&provider_guid_file);
-	if (ERROR_SUCCESS != provider_status) {
-		wprintf(L"enable_etw_provider() failed with %lu!\n", provider_status);
-	}
-	else
-		wprintf(L"enable_etw_provider() successfully!\n");
+	//TDHSTATUS provider_status = etw.enable_etw_provider(&provider_guid_file);
+	//if (ERROR_SUCCESS != provider_status) {
+	//	wprintf(L"enable_etw_provider() failed with %lu!\n", provider_status);
+	//}
+	//else
+	//	wprintf(L"enable_etw_provider() successfully!\n");
 
+	//TDHSTATUS process_status = ProcessTrace(&etw.trace_handle, 1, 0, 0);
+	//if (ERROR_SUCCESS == process_status) {
+	//	wprintf(L"ProcessTrace() failed with %lu!\n", process_status);
+	//}
+	//else
+	//	wprintf(L"ProcessTrace() successfully!\n");
 
 	return 0;
 }

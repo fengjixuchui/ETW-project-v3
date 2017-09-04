@@ -1,7 +1,7 @@
 #pragma once
 
 #define ETW_SESSION_NAME_MAX_LENGTH 20 
-#define ETW_SESSION_NAME L"darpa_detections" // the length of ETW_SESSION_NAME should not larger than ETW_SESSION_NAME_MAX_LENGTH
+#define ETW_SESSION_NAME L"darpa_detection" // the length of ETW_SESSION_NAME should not larger than ETW_SESSION_NAME_MAX_LENGTH
 #define ETW_LOGFILE_NAME_MAX_LENGTH 100
 #define ETW_LOGFILE_NAME L"E:\\Programming\\ETW_project\\User level providers\\logfile\\demo.etl"
 
@@ -12,13 +12,16 @@
 
 class Etw_control {
 public:
+	GUID provider_guid_file = { 0xEDD08927, 0x9CC4, 0x4E65,{ 0xB9, 0x70, 0xC2, 0x56, 0x0F, 0xB5, 0xC2, 0x89 } };
+	GUID provider_guid = provider_guid_file;
+
 	Etw_control();
 	~Etw_control();
 
 	// Enable ETW providers for sessions & Enable filtering
 	TDHSTATUS enable_etw_provider(LPCGUID provider_guid);
 	// Open trace session for consumer
-	TRACEHANDLE setup_trace_logfile(PEVENT_RECORD_CALLBACK call_back, PEVENT_TRACE_BUFFER_CALLBACK buffer_call_back);
+	TRACEHANDLE open_etw_trace(PEVENT_CALLBACK call_back, PEVENT_TRACE_BUFFER_CALLBACK buffer_call_back);
 
 private:
 	PEVENT_TRACE_PROPERTIES p2session_properties = NULL;
