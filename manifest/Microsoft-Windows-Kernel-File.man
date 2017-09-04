@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instrumentationManifest    xmlns="http://schemas.microsoft.com/win/2004/08/events"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:trace="http://schemas.microsoft.com/win/2004/08/events/trace"
+    xsi:schemaLocation="http://schemas.microsoft.com/win/2004/08/events eventman.xsd"
+    >
+  <instrumentation>
+    <events>
+	<provider name="Microsoft-Windows-Kernel-File" symbol="provider0" guid="{edd08927-9cc4-4e65-b970-c2560fb5c289}" source="Xml" messageFileName="noMessageFile" resourceFileName="noResourceFile" message="$(string.string0)">
+		<events>
+			<event value="10" version="0" template="tid_0" opcode="win:Info" channel="channel0" level="win:Informational" task="task0" keywords="keyword0 " />
+			<event value="11" version="0" template="tid_0" opcode="win:Info" channel="channel0" level="win:Informational" task="task1" keywords="keyword0 " />
+			<event value="12" version="0" template="tid_1" opcode="win:Info" channel="channel0" level="win:Informational" task="task2" keywords="keyword1 keyword3 " />
+			<event value="13" version="0" template="tid_2" opcode="win:Info" channel="channel0" level="win:Informational" task="task3" keywords="keyword1 " />
+			<event value="14" version="0" template="tid_2" opcode="win:Info" channel="channel0" level="win:Informational" task="task4" keywords="keyword1 " />
+			<event value="15" version="0" template="tid_3" opcode="win:Info" channel="channel0" level="win:Informational" task="task5" keywords="keyword1 keyword4 " />
+			<event value="16" version="0" template="tid_3" opcode="win:Info" channel="channel0" level="win:Informational" task="task6" keywords="keyword1 keyword5 " />
+			<event value="17" version="0" template="tid_4" opcode="win:Info" channel="channel0" level="win:Informational" task="task7" keywords="keyword1 " />
+			<event value="18" version="0" template="tid_4" opcode="win:Info" channel="channel0" level="win:Informational" task="task8" keywords="keyword1 " />
+			<event value="19" version="0" template="tid_4" opcode="win:Info" channel="channel0" level="win:Informational" task="task9" keywords="keyword1 " />
+			<event value="20" version="0" template="tid_5" opcode="win:Info" channel="channel0" level="win:Informational" task="task10" keywords="keyword1 " />
+			<event value="21" version="0" template="tid_2" opcode="win:Info" channel="channel0" level="win:Informational" task="task11" keywords="keyword1 " />
+			<event value="22" version="0" template="tid_4" opcode="win:Info" channel="channel0" level="win:Informational" task="task12" keywords="keyword1 " />
+			<event value="23" version="0" template="tid_4" opcode="win:Info" channel="channel0" level="win:Informational" task="task13" keywords="keyword1 " />
+			<event value="24" version="0" template="tid_6" opcode="win:Info" channel="channel0" level="win:Informational" task="task14" keywords="keyword1 keyword2 " />
+			<event value="25" version="0" template="tid_5" opcode="win:Info" channel="channel0" level="win:Informational" task="task15" keywords="keyword1 " />
+			<event value="26" version="0" template="tid_7" opcode="win:Info" channel="channel0" level="win:Informational" task="task16" keywords="keyword6 " />
+			<event value="27" version="0" template="tid_7" opcode="win:Info" channel="channel0" level="win:Informational" task="task17" keywords="keyword7 " />
+			<event value="28" version="0" template="tid_7" opcode="win:Info" channel="channel0" level="win:Informational" task="task18" keywords="keyword7 " />
+			<event value="29" version="0" template="tid_4" opcode="win:Info" channel="channel0" level="win:Informational" task="task9" keywords="keyword1 " />
+			<event value="30" version="0" template="tid_1" opcode="win:Info" channel="channel0" level="win:Informational" task="task19" keywords="keyword8 " />
+			<event value="12" version="1" template="tid_8" opcode="win:Info" channel="channel0" level="win:Informational" task="task2" keywords="keyword1 keyword3 " />
+			<event value="13" version="1" template="tid_9" opcode="win:Info" channel="channel0" level="win:Informational" task="task3" keywords="keyword1 " />
+			<event value="14" version="1" template="tid_9" opcode="win:Info" channel="channel0" level="win:Informational" task="task4" keywords="keyword1 " />
+			<event value="15" version="1" template="tid_10" opcode="win:Info" channel="channel0" level="win:Informational" task="task5" keywords="keyword1 keyword4 " />
+			<event value="16" version="1" template="tid_10" opcode="win:Info" channel="channel0" level="win:Informational" task="task6" keywords="keyword1 keyword5 " />
+			<event value="17" version="1" template="tid_11" opcode="win:Info" channel="channel0" level="win:Informational" task="task7" keywords="keyword1 " />
+			<event value="18" version="1" template="tid_11" opcode="win:Info" channel="channel0" level="win:Informational" task="task8" keywords="keyword1 " />
+			<event value="19" version="1" template="tid_11" opcode="win:Info" channel="channel0" level="win:Informational" task="task9" keywords="keyword1 " />
+			<event value="20" version="1" template="tid_12" opcode="win:Info" channel="channel0" level="win:Informational" task="task10" keywords="keyword1 " />
+			<event value="21" version="1" template="tid_9" opcode="win:Info" channel="channel0" level="win:Informational" task="task11" keywords="keyword1 " />
+			<event value="22" version="1" template="tid_11" opcode="win:Info" channel="channel0" level="win:Informational" task="task12" keywords="keyword1 " />
+			<event value="23" version="1" template="tid_11" opcode="win:Info" channel="channel0" level="win:Informational" task="task13" keywords="keyword1 " />
+			<event value="25" version="1" template="tid_12" opcode="win:Info" channel="channel0" level="win:Informational" task="task15" keywords="keyword1 " />
+			<event value="26" version="1" template="tid_13" opcode="win:Info" channel="channel0" level="win:Informational" task="task16" keywords="keyword6 " />
+			<event value="27" version="1" template="tid_13" opcode="win:Info" channel="channel0" level="win:Informational" task="task17" keywords="keyword7 " />
+			<event value="28" version="1" template="tid_13" opcode="win:Info" channel="channel0" level="win:Informational" task="task18" keywords="keyword7 " />
+			<event value="29" version="1" template="tid_11" opcode="win:Info" channel="channel0" level="win:Informational" task="task9" keywords="keyword1 " />
+			<event value="30" version="1" template="tid_8" opcode="win:Info" channel="channel0" level="win:Informational" task="task19" keywords="keyword8 " />
+		</events>
+		<channels>
+			<channel value="16" chid="channel0" name="Microsoft-Windows-Kernel-File/Analytic" type="Debug" />
+		</channels>
+		<keywords>
+			<keyword name="keyword0" mask="0x10" message="$(string.string1)" />
+			<keyword name="keyword1" mask="0x20" message="$(string.string2)" />
+			<keyword name="keyword2" mask="0x40" message="$(string.string3)" />
+			<keyword name="keyword3" mask="0x80" message="$(string.string4)" />
+			<keyword name="keyword4" mask="0x100" message="$(string.string5)" />
+			<keyword name="keyword5" mask="0x200" message="$(string.string6)" />
+			<keyword name="keyword6" mask="0x400" message="$(string.string7)" />
+			<keyword name="keyword7" mask="0x800" message="$(string.string8)" />
+			<keyword name="keyword8" mask="0x1000" message="$(string.string9)" />
+		</keywords>
+		<tasks>
+			<task value="10" name="task0" message="$(string.string10)" />
+			<task value="11" name="task1" message="$(string.string11)" />
+			<task value="12" name="task2" message="$(string.string12)" />
+			<task value="13" name="task3" message="$(string.string13)" />
+			<task value="14" name="task4" message="$(string.string14)" />
+			<task value="15" name="task5" message="$(string.string15)" />
+			<task value="16" name="task6" message="$(string.string16)" />
+			<task value="17" name="task7" message="$(string.string17)" />
+			<task value="18" name="task8" message="$(string.string18)" />
+			<task value="19" name="task9" message="$(string.string19)" />
+			<task value="20" name="task10" message="$(string.string20)" />
+			<task value="21" name="task11" message="$(string.string21)" />
+			<task value="22" name="task12" message="$(string.string22)" />
+			<task value="23" name="task13" message="$(string.string23)" />
+			<task value="24" name="task14" message="$(string.string24)" />
+			<task value="25" name="task15" message="$(string.string25)" />
+			<task value="26" name="task16" message="$(string.string26)" />
+			<task value="27" name="task17" message="$(string.string27)" />
+			<task value="28" name="task18" message="$(string.string28)" />
+			<task value="30" name="task19" message="$(string.string29)" />
+		</tasks>
+		<templates>
+			<template tid="tid_0">
+				<data name="FileKey" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileName" inType="win:UnicodeString" outType="xs:string"></data>
+			</template>
+			<template tid="tid_1">
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="ThreadId" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="CreateOptions" inType="win:UInt32" outType="win:HexInt32"></data>
+				<data name="CreateAttributes" inType="win:UInt32" outType="win:HexInt32"></data>
+				<data name="ShareAccess" inType="win:UInt32" outType="win:HexInt32"></data>
+				<data name="FileName" inType="win:UnicodeString" outType="xs:string"></data>
+			</template>
+			<template tid="tid_2">
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="ThreadId" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileKey" inType="win:Pointer" outType="win:HexInt64"></data>
+			</template>
+			<template tid="tid_3">
+				<data name="ByteOffset" inType="win:UInt64" outType="win:HexInt64"></data>
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="ThreadId" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileKey" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="IOSize" inType="win:UInt32" outType="win:HexInt32"></data>
+				<data name="IOFlags" inType="win:UInt32" outType="win:HexInt32"></data>
+			</template>
+			<template tid="tid_4">
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="ThreadId" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileKey" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="ExtraInformation" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="InfoClass" inType="win:UInt32" outType="xs:unsignedInt"></data>
+			</template>
+			<template tid="tid_5">
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="ThreadId" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileKey" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="Length" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="InfoClass" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="FileIndex" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="FileName" inType="win:UnicodeString" outType="xs:string"></data>
+			</template>
+			<template tid="tid_6">
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="ExtraInformation" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="Status" inType="win:UInt32" outType="win:HexInt32"></data>
+			</template>
+			<template tid="tid_7">
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="ThreadId" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileKey" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="ExtraInformation" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="InfoClass" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="FilePath" inType="win:UnicodeString" outType="xs:string"></data>
+			</template>
+			<template tid="tid_8">
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="IssuingThreadId" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="CreateOptions" inType="win:UInt32" outType="win:HexInt32"></data>
+				<data name="CreateAttributes" inType="win:UInt32" outType="win:HexInt32"></data>
+				<data name="ShareAccess" inType="win:UInt32" outType="win:HexInt32"></data>
+				<data name="FileName" inType="win:UnicodeString" outType="xs:string"></data>
+			</template>
+			<template tid="tid_9">
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileKey" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="IssuingThreadId" inType="win:UInt32" outType="xs:unsignedInt"></data>
+			</template>
+			<template tid="tid_10">
+				<data name="ByteOffset" inType="win:UInt64" outType="win:HexInt64"></data>
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileKey" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="IssuingThreadId" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="IOSize" inType="win:UInt32" outType="win:HexInt32"></data>
+				<data name="IOFlags" inType="win:UInt32" outType="win:HexInt32"></data>
+				<data name="ExtraFlags" inType="win:UInt32" outType="win:HexInt32"></data>
+			</template>
+			<template tid="tid_11">
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileKey" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="ExtraInformation" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="IssuingThreadId" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="InfoClass" inType="win:UInt32" outType="xs:unsignedInt"></data>
+			</template>
+			<template tid="tid_12">
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileKey" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="IssuingThreadId" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="Length" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="InfoClass" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="FileIndex" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="FileName" inType="win:UnicodeString" outType="xs:string"></data>
+			</template>
+			<template tid="tid_13">
+				<data name="Irp" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileObject" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="FileKey" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="ExtraInformation" inType="win:Pointer" outType="win:HexInt64"></data>
+				<data name="IssuingThreadId" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="InfoClass" inType="win:UInt32" outType="xs:unsignedInt"></data>
+				<data name="FilePath" inType="win:UnicodeString" outType="xs:string"></data>
+			</template>
+		</templates>
+	</provider>
+    </events>
+  </instrumentation>
+<localization>
+	<resources culture="en-US">
+		<stringTable>
+			<string id="string0" value="Microsoft-Windows-Kernel-File" />
+			<string id="string1" value="KERNEL_FILE_KEYWORD_FILENAME" />
+			<string id="string2" value="KERNEL_FILE_KEYWORD_FILEIO" />
+			<string id="string3" value="KERNEL_FILE_KEYWORD_OP_END" />
+			<string id="string4" value="KERNEL_FILE_KEYWORD_CREATE" />
+			<string id="string5" value="KERNEL_FILE_KEYWORD_READ" />
+			<string id="string6" value="KERNEL_FILE_KEYWORD_WRITE" />
+			<string id="string7" value="KERNEL_FILE_KEYWORD_DELETE_PATH" />
+			<string id="string8" value="KERNEL_FILE_KEYWORD_RENAME_SETLINK_PATH" />
+			<string id="string9" value="KERNEL_FILE_KEYWORD_CREATE_NEW_FILE" />
+			<string id="string10" value="NameCreate" />
+			<string id="string11" value="NameDelete" />
+			<string id="string12" value="Create" />
+			<string id="string13" value="Cleanup" />
+			<string id="string14" value="Close" />
+			<string id="string15" value="Read" />
+			<string id="string16" value="Write" />
+			<string id="string17" value="SetInformation" />
+			<string id="string18" value="SetDelete" />
+			<string id="string19" value="Rename" />
+			<string id="string20" value="DirEnum" />
+			<string id="string21" value="Flush" />
+			<string id="string22" value="QueryInformation" />
+			<string id="string23" value="FSCTL" />
+			<string id="string24" value="OperationEnd" />
+			<string id="string25" value="DirNotify" />
+			<string id="string26" value="DeletePath" />
+			<string id="string27" value="RenamePath" />
+			<string id="string28" value="SetLinkPath" />
+			<string id="string29" value="CreateNewFile" />
+		</stringTable>
+	</resources>
+</localization>
+</instrumentationManifest>
