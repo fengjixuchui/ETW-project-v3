@@ -21,6 +21,7 @@ Etw_control::Etw_control() {
 	else
 		wprintf(L"start_etw_status() successfully\n");
 
+	// 注意这里parser_event是回调函数，可能比较容易找不到回调函数的位置。
 	TRACEHANDLE handle = open_etw_trace((PEVENT_RECORD_CALLBACK)(Trace_parser::parser_event), NULL);
 	if (INVALID_PROCESSTRACE_HANDLE == handle) {
 		wprintf(L"open_etw_trace() failed with %lu!\n", GetLastError());
@@ -82,7 +83,7 @@ TDHSTATUS Etw_control::start_etw_session(PWSTR etw_session_name, PWSTR etw_logfi
 	// You use this member to specify that you want events written to a log file, a real-time consumer, or both. For a list of possible modes, https://msdn.microsoft.com/en-us/library/windows/desktop/aa364080(v=vs.85).aspx
 	p2session_properties->LogFileMode = 0L
 		//| EVENT_TRACE_NO_PER_PROCESSOR_BUFFERING // Writes events that were logged on different processors to a common buffer. Using this mode can eliminate the issue of events appearing out of order when events are being published on different processors using system time.
-		//| EVENT_TRACE_INDEPENDENT_SESSION_MODE // Indicates that a logging session should not be affected by EventWrite failures in other sessions. 
+		| EVENT_TRACE_INDEPENDENT_SESSION_MODE // Indicates that a logging session should not be affected by EventWrite failures in other sessions. 
 		//| EVENT_TRACE_SYSTEM_LOGGER_MODE // If the StartTraceProperties parameter LogFileMode includes this flag, the logger will be a system logger.
 		//| EVENT_TRACE_USE_PAGED_MEMORY // This setting is recommended so that events do not use up the non paged memory. This mode is ignored if EVENT_TRACE_PRIVATE_LOGGER_MODE is set.
 		//| EVENT_TRACE_STOP_ON_HYBRID_SHUTDOWN // This option stops logging on hybrid shutdown.
@@ -126,7 +127,7 @@ TDHSTATUS Etw_control::enable_etw_provider(LPCGUID provider_guid) {
 	enable_parameters.EnableProperty = 0L
 		| EVENT_ENABLE_PROPERTY_PROCESS_START_KEY // The Process Start Key is a sequence number that identifies the process.
 		| EVENT_ENABLE_PROPERTY_EVENT_KEY // event instance that will be constant across multiple trace sessions listening to this event
-		| EVENT_ENABLE_PROPERTY_SID // Include in the extended data the security identifier (SID) of the user.
+		//| EVENT_ENABLE_PROPERTY_SID // Include in the extended data the security identifier (SID) of the user.
 		| EVENT_ENABLE_PROPERTY_STACK_TRACE // If you set EVENT_ENABLE_PROPERTY_STACK_TRACE, ETW will drop the event if the total event size exceeds 64K. If the provider is logging events close in size to 64K maximum, it is possible that enabling stack capture will cause the event to be lost. If the stack is longer than the maximum number of frames(192), the frames will be cut from the bottom of the stack.
 		;
 	enable_parameters.ControlFlags = 0;

@@ -18,7 +18,7 @@
 
 using namespace std;
 
-void enumerate_providers();
+//void enumerate_providers();
 
 int main(int argc, char *argv[]) {
 	//Microsoft-Windows-Eventlog  {D8909C24-5BE9-4502-98CA-AB7BDC24899D}
@@ -39,12 +39,12 @@ int main(int argc, char *argv[]) {
 	Etw_control etw;
 	Trace_parser parser;
 
-	//TDHSTATUS provider_status = etw.enable_etw_provider(&provider_guid_file);
-	//if (ERROR_SUCCESS != provider_status) {
-	//	wprintf(L"enable_etw_provider() failed with %lu!\n", provider_status);
-	//}
-	//else
-	//	wprintf(L"enable_etw_provider() successfully!\n");
+	TDHSTATUS provider_status = etw.enable_etw_provider(&provider_guid_file);
+	if (ERROR_SUCCESS != provider_status) {
+		wprintf(L"enable_etw_provider() failed with %lu!\n", provider_status);
+	}
+	else 
+		wprintf(L"enable_etw_provider() successfully!\n");
 
 	//TDHSTATUS process_status = ProcessTrace(&etw.trace_handle, 1, 0, 0);
 	//if (ERROR_SUCCESS == process_status) {

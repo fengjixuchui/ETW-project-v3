@@ -24,6 +24,9 @@
     <ClCompile Include="trace_parser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="manifest_parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="etw_control.h">
@@ -32,5 +35,14 @@
     <ClInclude Include="trace_parser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="manifest_parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Readme.txt" />
   </ItemGroup>
 </Project>
