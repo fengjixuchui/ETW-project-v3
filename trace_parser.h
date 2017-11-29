@@ -18,4 +18,5 @@ using namespace std;
 class Trace_parser {
 public:
 	static VOID WINAPI parser_event(PEVENT_RECORD Buffer); // WINAPI callback function only recognize "C"
+	static VOID WINAPI parser_kernel_event(PEVENT_RECORD Buffer);
 };

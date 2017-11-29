@@ -20,12 +20,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="etw_control.cpp" />
+    <ClCompile Include="etw_kernel_control.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="manifest_parser.cpp" />
     <ClCompile Include="trace_parser.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="etw_control.h" />
+    <ClInclude Include="etw_kernel_control.h" />
     <ClInclude Include="manifestbased_provider_guid.h" />
     <ClInclude Include="manifest_parser.h" />
     <ClInclude Include="ntkernel_provider_guid.h" />

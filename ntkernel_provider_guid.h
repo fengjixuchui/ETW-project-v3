@@ -23,13 +23,13 @@ DEFINE_GUID ( /* 3d6fa8d4-fe05-11d0-9dda-00c04fd7ba7c */
     0x9d, 0xda, 0x00, 0xc0, 0x4f, 0xd7, 0xba, 0x7c
   );
 
-  DEFINE_GUID ( /* 01853a65-418f-4f36-aefc-dc0f1d2fd235 */
-    EventTraceConfigGuid,
-    0x01853a65,
-    0x418f,
-    0x4f36,
-    0xae, 0xfc, 0xdc, 0x0f, 0x1d, 0x2f, 0xd2, 0x35
-  );
+  //DEFINE_GUID ( /* 01853a65-418f-4f36-aefc-dc0f1d2fd235 */
+  //  EventTraceConfigGuid,
+  //  0x01853a65,
+  //  0x418f,
+  //  0x4f36,
+  //  0xae, 0xfc, 0xdc, 0x0f, 0x1d, 0x2f, 0xd2, 0x35
+  //);
 
   DEFINE_GUID ( /* 90cbdc39-4a3e-11d1-84f4-0000f80464e3 */
     FileIoGuid,

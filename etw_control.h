@@ -20,8 +20,6 @@ public:
 	GUID provider_guid = provider_guid_file;
 
 	Etw_control();
-	Etw_control(std::wstring);
-
 	~Etw_control();
 
 	// Enable ETW providers for sessions & Enable filtering

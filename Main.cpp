@@ -9,6 +9,7 @@
 #include <iostream>
 
 #include "etw_control.h"
+#include "etw_kernel_control.h"
 #include "trace_parser.h"
 #include "manifestbased_provider_guid.h"
 
@@ -36,7 +37,7 @@ int main(int argc, char *argv[]) {
 	//TDHSTATUS query_status = QueryTrace(NULL, KERNEL_LOGGER_NAME, p2session_properties);
 
 	wstring kernel_name(KERNEL_LOGGER_NAME);
-	Etw_control etw(kernel_name);
+	Etw_kernel_control etw;
 	//Etw_control etw;
 	Trace_parser parser;
 
