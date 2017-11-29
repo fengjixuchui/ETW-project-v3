@@ -26,7 +26,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="etw_control.h" />
+    <ClInclude Include="manifestbased_provider_guid.h" />
     <ClInclude Include="manifest_parser.h" />
+    <ClInclude Include="ntkernel_provider_guid.h" />
     <ClInclude Include="trace_parser.h" />
   </ItemGroup>
   <ItemGroup>

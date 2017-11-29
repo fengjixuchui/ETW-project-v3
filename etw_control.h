@@ -1,5 +1,9 @@
 #pragma once
 
+#include <evntrace.h>
+#include <string>
+
+
 #define ETW_SESSION_NAME_MAX_LENGTH 20 
 #define ETW_SESSION_NAME L"darpa_detection" // the length of ETW_SESSION_NAME should not larger than ETW_SESSION_NAME_MAX_LENGTH
 #define ETW_LOGFILE_NAME_MAX_LENGTH 100
@@ -16,12 +20,14 @@ public:
 	GUID provider_guid = provider_guid_file;
 
 	Etw_control();
+	Etw_control(std::wstring);
+
 	~Etw_control();
 
 	// Enable ETW providers for sessions & Enable filtering
-	TDHSTATUS enable_etw_provider(LPCGUID provider_guid);
+	TDHSTATUS configure_etw_provider(LPCGUID provider_guid);
 	// Open trace session for consumer
-	TRACEHANDLE open_etw_trace(PEVENT_RECORD_CALLBACK call_back, PEVENT_TRACE_BUFFER_CALLBACK buffer_call_back);
+	TRACEHANDLE configure_etw_consumer(PEVENT_RECORD_CALLBACK call_back, PEVENT_TRACE_BUFFER_CALLBACK buffer_call_back);
 
 private:
 	PEVENT_TRACE_PROPERTIES p2session_properties = NULL;
@@ -30,7 +36,7 @@ private:
 	EVENT_TRACE_LOGFILE trace_logfile;
 
 	// Set up ETW sessions & Enable ETW provider
-	TDHSTATUS start_etw_session(PWSTR etw_session_name, PWSTR etw_logfile_name);
+	TDHSTATUS configure_etw_session(PWSTR etw_session_name, PWSTR etw_logfile_name);
 	// Stop ETW sessions
 	TDHSTATUS stop_etw_session();
 

@@ -1,0 +1,1070 @@
+Provider
+ACPI Driver Trace Provider               
+Active Directory Domain Services: SAM    
+Active Directory: Kerberos Client        
+Active Directory: NetLogon               
+ADODB.1                                  
+ADOMD.1                                  
+Application Popup                        
+Application-Addon-Event-Provider         
+ATA Port Driver Tracing Provider         
+AuthFw NetShell Plugin                   
+BCP.1                                    
+BFE Trace Provider                       
+BITS Service Trace                       
+Certificate Services Client CredentialRoaming Trace 
+Certificate Services Client Trace        
+Circular Kernel Session Provider         
+Classpnp Driver Tracing Provider         
+Critical Section Trace Provider          
+DBNETLIB.1                               
+Deduplication Tracing Provider           
+Disk Class Driver Tracing Provider       
+Downlevel IPsec API                      
+Downlevel IPsec NetShell Plugin          
+Downlevel IPsec Policy Store             
+Downlevel IPsec Service                  
+EA IME API                               
+Error Instrument                         
+FD Core Trace                            
+FD Publication Trace                     
+FD SSDP Trace                            
+FD WNet Trace                            
+FD WSDAPI Trace                          
+FDPHost Service Trace                    
+File Kernel Trace; Operation Set 1       
+File Kernel Trace; Operation Set 2       
+File Kernel Trace; Optional Data         
+File Kernel Trace; Volume To Log         
+FWPKCLNT Trace Provider                  
+FWPUCLNT Trace Provider                  
+Heap Trace Provider                      
+Hypervisor Trace                         
+IKEEXT Trace Provider                    
+IMAPI1 Shim                              
+IMAPI2 Concatenate Stream                
+IMAPI2 Disc Master                       
+IMAPI2 Disc Recorder                     
+IMAPI2 Disc Recorder Enumerator          
+IMAPI2 dll                               
+IMAPI2 Interleave Stream                 
+IMAPI2 Media Eraser                      
+IMAPI2 MSF                               
+IMAPI2 Multisession Sequential           
+IMAPI2 Pseudo-Random Stream              
+IMAPI2 Raw CD Writer                     
+IMAPI2 Raw Image Writer                  
+IMAPI2 Standard Data Writer              
+IMAPI2 Track-at-Once CD Writer           
+IMAPI2 Utilities                         
+IMAPI2 Write Engine                      
+IMAPI2 Zero Stream                       
+IMAPI2FS Tracing                         
+Infrared Monitor Service                 
+Intel-iaLPSS-GPIO                        
+Intel-iaLPSS-I2C                         
+Intel-iaLPSS2-GPIO2                      
+Intel-iaLPSS2-I2C                        
+Intel-SST-CFD-HDA                        
+IPMI Driver Trace                        
+IPMI Provider Trace                      
+IrDA Protocol Driver                     
+KMDFv1 Trace Provider                    
+Layer2 Security HC Diagnostics Trace     
+Local Security Authority (LSA)           
+LsaSrv                                   
+Microsoft-Antimalware-AMFilter           
+Microsoft-Antimalware-Engine             
+Microsoft-Antimalware-Protection         
+Microsoft-Antimalware-RTP                
+Microsoft-Antimalware-Service            
+Microsoft-Antimalware-UI                 
+Microsoft-AppV-Client                    
+Microsoft-AppV-Client-StreamingUX        
+Microsoft-AppV-ServiceLog                
+Microsoft-AppV-SharedPerformance         
+Microsoft-Client-Licensing-Platform      
+Microsoft-IE                             
+Microsoft-IE-JSDumpHeap                  
+Microsoft-IE-ReadingView                 
+Microsoft-IEFRAME                        
+Microsoft-JScript                        
+Microsoft-Office-Events                  
+Microsoft-Office-Word                    
+Microsoft-Office-Word2                   
+Microsoft-Office-Word3                   
+Microsoft-OneCore-OnlineSetup            
+Microsoft-PerfTrack-IEFRAME              
+Microsoft-PerfTrack-MSHTML               
+Microsoft-RMS-MSIPC                      
+Microsoft-User Experience Virtualization-Admin 
+Microsoft-User Experience Virtualization-Agent Driver 
+Microsoft-User Experience Virtualization-App Agent 
+Microsoft-User Experience Virtualization-IPC 
+Microsoft-User Experience Virtualization-SQM Uploader 
+Microsoft-Windows Networking VPN Plugin Platform 
+Microsoft-Windows-AAD                    
+Microsoft-Windows-ACL-UI                 
+Microsoft-Windows-ActionQueue            
+Microsoft-Windows-ADSI                   
+Microsoft-Windows-AIT                    
+Microsoft-Windows-All-User-Install-Agent 
+Microsoft-Windows-AllJoyn                
+Microsoft-Windows-AppHost                
+Microsoft-Windows-AppID                  
+Microsoft-Windows-AppIDServiceTrigger    
+Microsoft-Windows-ApplicabilityEngine    
+Microsoft-Windows-Application Server-Applications 
+Microsoft-Windows-Application-Experience 
+Microsoft-Windows-ApplicationExperience-Cache 
+Microsoft-Windows-ApplicationExperience-LookupServiceTrigger 
+Microsoft-Windows-ApplicationExperience-SwitchBack 
+Microsoft-Windows-ApplicationExperienceInfrastructure 
+Microsoft-Windows-ApplicationResourceManagementSystem 
+Microsoft-Windows-AppLocker              
+Microsoft-Windows-AppModel-Exec          
+Microsoft-Windows-AppModel-MessagingDataModel 
+Microsoft-Windows-AppModel-Runtime       
+Microsoft-Windows-AppModel-State         
+Microsoft-Windows-AppReadiness           
+Microsoft-Windows-AppSruProv             
+Microsoft-Windows-AppXDeployment         
+Microsoft-Windows-AppXDeployment-Server  
+Microsoft-Windows-AppxPackagingOM        
+Microsoft-Windows-ASN1                   
+Microsoft-Windows-AssignedAccess         
+Microsoft-Windows-AssignedAccessBroker   
+Microsoft-Windows-AsynchronousCausality  
+Microsoft-Windows-ATAPort                
+Microsoft-Windows-Audio                  
+Microsoft-Windows-Audit                  
+Microsoft-Windows-Audit-CVE              
+Microsoft-Windows-AuthenticationProvider 
+Microsoft-Windows-AxInstallService       
+Microsoft-Windows-BackgroundTransfer-ContentPrefetcher 
+Microsoft-Windows-Backup                 
+Microsoft-Windows-Base-Filtering-Engine-Connections 
+Microsoft-Windows-Base-Filtering-Engine-Resource-Flows 
+Microsoft-Windows-Battery                
+Microsoft-Windows-BfeTriggerProvider     
+Microsoft-Windows-Biometrics             
+Microsoft-Windows-BitLocker-API          
+Microsoft-Windows-BitLocker-DrivePreparationTool 
+Microsoft-Windows-BitLocker-Driver       
+Microsoft-Windows-BitLocker-Driver-Performance 
+Microsoft-Windows-Bits-Client            
+Microsoft-Windows-Bluetooth-BthLEPrepairing 
+Microsoft-Windows-Bluetooth-MTPEnum      
+Microsoft-Windows-BootUX                 
+Microsoft-Windows-BranchCache            
+Microsoft-Windows-BranchCacheClientEventProvider 
+Microsoft-Windows-BranchCacheEventProvider 
+Microsoft-Windows-BranchCacheMonitoring  
+Microsoft-Windows-BranchCacheSMB         
+Microsoft-Windows-BrokerInfrastructure   
+Microsoft-Windows-Build-RegDll           
+Microsoft-Windows-CAPI2                  
+Microsoft-Windows-CDROM                  
+Microsoft-Windows-CertificateServicesClient 
+Microsoft-Windows-CertificateServicesClient-AutoEnrollment 
+Microsoft-Windows-CertificateServicesClient-CertEnroll 
+Microsoft-Windows-CertificateServicesClient-CredentialRoaming 
+Microsoft-Windows-CertificateServicesClient-Lifecycle-System 
+Microsoft-Windows-CertificateServicesClient-Lifecycle-User 
+Microsoft-Windows-CertificationAuthorityClient-CertCli 
+Microsoft-Windows-CertPolEng             
+Microsoft-Windows-ClearTypeTextTuner     
+Microsoft-Windows-CloudStorageWizard     
+Microsoft-Windows-CmiSetup               
+Microsoft-Windows-CodeIntegrity          
+Microsoft-Windows-COM                    
+Microsoft-Windows-COM-Perf               
+Microsoft-Windows-ComDlg32               
+Microsoft-Windows-Compat-Appraiser       
+Microsoft-Windows-Complus                
+Microsoft-Windows-COMRuntime             
+Microsoft-Windows-Connected-Search       
+Microsoft-Windows-Containers-Wcifs       
+Microsoft-Windows-Containers-Wcnfs       
+Microsoft-Windows-CoreSystem-NetProvision-JoinProviderOnline 
+Microsoft-Windows-CoreSystem-SmsRouter   
+Microsoft-Windows-CoreWindow             
+Microsoft-Windows-CorruptedFileRecovery-Client 
+Microsoft-Windows-CorruptedFileRecovery-Server 
+Microsoft-Windows-Crashdump              
+Microsoft-Windows-CredentialProviders    
+Microsoft-Windows-CredProvHost           
+Microsoft-Windows-CredUI                 
+Microsoft-Windows-Crypto-BCrypt          
+Microsoft-Windows-Crypto-CNG             
+Microsoft-Windows-Crypto-DPAPI           
+Microsoft-Windows-Crypto-DSSEnh          
+Microsoft-Windows-Crypto-NCrypt          
+Microsoft-Windows-Crypto-RNG             
+Microsoft-Windows-Crypto-RSAEnh          
+Microsoft-Windows-D3D10Level9            
+Microsoft-Windows-D3D9                   
+Microsoft-Windows-DAL-Provider           
+Microsoft-Windows-Data-Pdf               
+Microsoft-Windows-DataCollectionService  
+Microsoft-Windows-DataIntegrityScan      
+Microsoft-Windows-DateTimeControlPanel   
+Microsoft-Windows-DCLocator              
+Microsoft-Windows-Deduplication          
+Microsoft-Windows-Deduplication-Change   
+Microsoft-Windows-Defrag-Core            
+Microsoft-Windows-Deplorch               
+Microsoft-Windows-DesktopActivityModerator 
+Microsoft-Windows-DesktopWindowManager-Diag 
+Microsoft-Windows-DeviceAssociationService 
+Microsoft-Windows-DeviceConfidence       
+Microsoft-Windows-DeviceGuard            
+Microsoft-Windows-DeviceManagement-Enterprise-Diagnostics-Provider 
+Microsoft-Windows-DeviceManagement-Pushrouter 
+Microsoft-Windows-Devices-Background     
+Microsoft-Windows-DeviceSetupManager     
+Microsoft-Windows-DeviceSync             
+Microsoft-Windows-DeviceUx               
+Microsoft-Windows-DfsSvc                 
+Microsoft-Windows-Dhcp-Client            
+Microsoft-Windows-DHCPv6-Client          
+Microsoft-Windows-DiagCpl                
+Microsoft-Windows-Diagnosis-AdvancedTaskManager 
+Microsoft-Windows-Diagnosis-DPS          
+Microsoft-Windows-Diagnosis-MSDE         
+Microsoft-Windows-Diagnosis-PCW          
+Microsoft-Windows-Diagnosis-PerfHost     
+Microsoft-Windows-Diagnosis-PLA          
+Microsoft-Windows-Diagnosis-Scheduled    
+Microsoft-Windows-Diagnosis-Scripted     
+Microsoft-Windows-Diagnosis-ScriptedDiagnosticsProvider 
+Microsoft-Windows-Diagnosis-WDC          
+Microsoft-Windows-Diagnosis-WDI          
+Microsoft-Windows-Diagnostics-LoggingChannel 
+Microsoft-Windows-Diagnostics-Networking 
+Microsoft-Windows-Diagnostics-Performance 
+Microsoft-Windows-Diagnostics-PerfTrack  
+Microsoft-Windows-Diagnostics-PerfTrack-Counters 
+Microsoft-Windows-Diagtrack              
+Microsoft-Windows-Direct3D10             
+Microsoft-Windows-Direct3D10_1           
+Microsoft-Windows-Direct3D11             
+Microsoft-Windows-Direct3D12             
+Microsoft-Windows-DirectAccess-MediaManager 
+Microsoft-Windows-DirectComposition      
+Microsoft-Windows-DirectManipulation     
+Microsoft-Windows-Directory-Services-SAM 
+Microsoft-Windows-Directory-Services-SAM-Utility 
+Microsoft-Windows-DirectShow-Core        
+Microsoft-Windows-DirectShow-KernelSupport 
+Microsoft-Windows-DirectSound            
+Microsoft-Windows-DirectWrite            
+Microsoft-Windows-DirectWrite-FontCache  
+Microsoft-Windows-Disk                   
+Microsoft-Windows-DiskDiagnostic         
+Microsoft-Windows-DiskDiagnosticDataCollector 
+Microsoft-Windows-DiskDiagnosticResolver 
+Microsoft-Windows-Dism-Api               
+Microsoft-Windows-Dism-Cli               
+Microsoft-Windows-Display                
+Microsoft-Windows-DisplayColorCalibration 
+Microsoft-Windows-DisplaySwitch          
+Microsoft-Windows-DistributedCOM         
+Microsoft-Windows-DLNA-Namespace         
+Microsoft-Windows-DNS-Client             
+Microsoft-Windows-Documents              
+Microsoft-Windows-DomainJoinManagerTriggerProvider 
+Microsoft-Windows-Dot3MM                 
+Microsoft-Windows-DotNETRuntime          
+Microsoft-Windows-DotNETRuntimeRundown   
+Microsoft-Windows-DriverFrameworks-KernelMode-Performance 
+Microsoft-Windows-DriverFrameworks-UserMode 
+Microsoft-Windows-DriverFrameworks-UserMode-Performance 
+Microsoft-Windows-DSC                    
+Microsoft-Windows-DUI                    
+Microsoft-Windows-DUSER                  
+Microsoft-Windows-DVD                    
+Microsoft-Windows-Dwm-Api                
+Microsoft-Windows-Dwm-Core               
+Microsoft-Windows-Dwm-Dwm                
+Microsoft-Windows-Dwm-Redir              
+Microsoft-Windows-Dwm-Udwm               
+Microsoft-Windows-DXGI                   
+Microsoft-Windows-DxgKrnl                
+Microsoft-Windows-DXP                    
+Microsoft-Windows-DxpTaskSyncProvider    
+Microsoft-Windows-EapHost                
+Microsoft-Windows-EapMethods-RasChap     
+Microsoft-Windows-EapMethods-RasTls      
+Microsoft-Windows-EapMethods-Sim         
+Microsoft-Windows-EapMethods-Ttls        
+Microsoft-Windows-EaseOfAccess           
+Microsoft-Windows-EDP-Audit-Regular      
+Microsoft-Windows-EDP-Audit-TCB          
+Microsoft-Windows-EFS                    
+Microsoft-Windows-ELS-Hyphenation        
+Microsoft-Windows-EmbeddedAppLauncher    
+Microsoft-Windows-EndpointTriggerProvider 
+Microsoft-Windows-Energy-Estimation-Engine 
+Microsoft-Windows-EnergyEfficiencyWizard 
+Microsoft-Windows-EnhancedStorage-EhStorTcgDrv 
+Microsoft-Windows-EQoS                   
+Microsoft-Windows-ErrorReportingConsole  
+Microsoft-Windows-ESE                    
+Microsoft-Windows-EtwCollector           
+Microsoft-Windows-EventCollector         
+Microsoft-Windows-Eventlog               
+Microsoft-Windows-EventLog-WMIProvider   
+Microsoft-Windows-EventSystem            
+Microsoft-Windows-exFAT-SQM              
+Microsoft-Windows-FailoverClustering-Client 
+Microsoft-Windows-Fat-SQM                
+Microsoft-Windows-Fault-Tolerant-Heap    
+Microsoft-Windows-Fax                    
+Microsoft-Windows-Feedback-Service-TriggerProvider 
+Microsoft-Windows-FileHistory-Catalog    
+Microsoft-Windows-FileHistory-ConfigManager 
+Microsoft-Windows-FileHistory-Core       
+Microsoft-Windows-FileHistory-Engine     
+Microsoft-Windows-FileHistory-EventListener 
+Microsoft-Windows-FileHistory-Service    
+Microsoft-Windows-FileHistory-UI         
+Microsoft-Windows-FileInfoMinifilter     
+Microsoft-Windows-FilterManager          
+Microsoft-Windows-Firewall               
+Microsoft-Windows-Firewall-CPL           
+Microsoft-Windows-FirstUX-PerfInstrumentation 
+Microsoft-Windows-FMS                    
+Microsoft-Windows-Folder Redirection     
+Microsoft-Windows-Forwarding             
+Microsoft-Windows-FunctionDiscovery      
+Microsoft-Windows-FunctionDiscoveryHost  
+Microsoft-Windows-GenericRoaming         
+Microsoft-Windows-Globalization          
+Microsoft-Windows-Globalization-FontGroups 
+Microsoft-Windows-GPIO-ClassExtension    
+Microsoft-Windows-GPIOButtons            
+Microsoft-Windows-Graphics-Printing      
+Microsoft-Windows-Graphics-Printing3D    
+Microsoft-Windows-GroupPolicy            
+Microsoft-Windows-GroupPolicyTriggerProvider 
+Microsoft-Windows-HAL                    
+Microsoft-Windows-HealthCenter           
+Microsoft-Windows-HealthCenterCPL        
+Microsoft-Windows-Help                   
+Microsoft-Windows-HomeGroup-ControlPanel 
+Microsoft-Windows-HomeGroup-ListenerService 
+Microsoft-Windows-HomeGroup-ProviderService 
+Microsoft-Windows-HotspotAuth            
+Microsoft-Windows-Http-SQM-Provider      
+Microsoft-Windows-HttpEvent              
+Microsoft-Windows-HttpLog                
+Microsoft-Windows-HttpService            
+Microsoft-Windows-Hyper-V-Guest-Drivers-Dynamic-Memory 
+Microsoft-Windows-Hyper-V-Guest-Drivers-IcSvc 
+Microsoft-Windows-Hyper-V-Guest-Drivers-Storage-Filter 
+Microsoft-Windows-Hyper-V-Guest-Drivers-Vmbus 
+Microsoft-Windows-Hyper-V-Netvsc         
+Microsoft-Windows-IdCtrls                
+Microsoft-Windows-IdleTriggerProvider    
+Microsoft-Windows-IE-F12-Provider        
+Microsoft-Windows-IME-Broker             
+Microsoft-Windows-IME-CandidateUI        
+Microsoft-Windows-IME-CustomerFeedbackManager 
+Microsoft-Windows-IME-CustomerFeedbackManagerUI 
+Microsoft-Windows-IME-JPAPI              
+Microsoft-Windows-IME-JPLMP              
+Microsoft-Windows-IME-JPPRED             
+Microsoft-Windows-IME-JPSetting          
+Microsoft-Windows-IME-JPTIP              
+Microsoft-Windows-IME-KRAPI              
+Microsoft-Windows-IME-KRTIP              
+Microsoft-Windows-IME-OEDCompiler        
+Microsoft-Windows-IME-TCCORE             
+Microsoft-Windows-IME-TCTIP              
+Microsoft-Windows-IME-TIP                
+Microsoft-Windows-Immersive-Shell        
+Microsoft-Windows-Immersive-Shell-API    
+Microsoft-Windows-IndirectDisplays-ClassExtension-Events 
+Microsoft-Windows-Input-HIDCLASS         
+Microsoft-Windows-InputSwitch            
+Microsoft-Windows-Install-Agent          
+Microsoft-Windows-InstallUX              
+Microsoft-Windows-International          
+Microsoft-Windows-International-RegionalOptionsControlPanel 
+Microsoft-Windows-Iphlpsvc               
+Microsoft-Windows-Iphlpsvc-Trace         
+Microsoft-Windows-IPMIProvider           
+Microsoft-Windows-IPNAT                  
+Microsoft-Windows-IPSEC-SRV              
+Microsoft-Windows-IsolatedUserMode       
+Microsoft-Windows-KdsSvc                 
+Microsoft-Windows-Kernel-Acpi            
+Microsoft-Windows-Kernel-AppCompat       
+Microsoft-Windows-Kernel-Audit-API-Calls 
+Microsoft-Windows-Kernel-Boot            
+Microsoft-Windows-Kernel-BootDiagnostics 
+Microsoft-Windows-Kernel-Disk            
+Microsoft-Windows-Kernel-EventTracing    
+Microsoft-Windows-Kernel-File            
+Microsoft-Windows-Kernel-General         
+Microsoft-Windows-Kernel-Interrupt-Steering 
+Microsoft-Windows-Kernel-IO              
+Microsoft-Windows-Kernel-IoTrace         
+Microsoft-Windows-Kernel-Licensing-StartServiceTrigger 
+Microsoft-Windows-Kernel-LicensingSqm    
+Microsoft-Windows-Kernel-LiveDump        
+Microsoft-Windows-Kernel-Memory          
+Microsoft-Windows-Kernel-Network         
+Microsoft-Windows-Kernel-Pep             
+Microsoft-Windows-Kernel-PnP             
+Microsoft-Windows-Kernel-PnP-Rundown     
+Microsoft-Windows-Kernel-Power           
+Microsoft-Windows-Kernel-PowerTrigger    
+Microsoft-Windows-Kernel-Prefetch        
+Microsoft-Windows-Kernel-Process         
+Microsoft-Windows-Kernel-Processor-Power 
+Microsoft-Windows-Kernel-Registry        
+Microsoft-Windows-Kernel-ShimEngine      
+Microsoft-Windows-Kernel-StoreMgr        
+Microsoft-Windows-Kernel-Tm              
+Microsoft-Windows-Kernel-Tm-Trigger      
+Microsoft-Windows-Kernel-WDI             
+Microsoft-Windows-Kernel-WHEA            
+Microsoft-Windows-Kernel-WSService-StartServiceTrigger 
+Microsoft-Windows-Kernel-XDV             
+Microsoft-Windows-KernelStreaming        
+Microsoft-Windows-KnownFolders           
+Microsoft-Windows-L2NACP                 
+Microsoft-Windows-LanGPA                 
+Microsoft-Windows-LanguagePackSetup      
+Microsoft-Windows-LanguageProfile        
+Microsoft-Windows-LDAP-Client            
+Microsoft-Windows-LimitsManagement       
+Microsoft-Windows-LinkLayerDiscoveryProtocol 
+Microsoft-Windows-LiveId                 
+Microsoft-Windows-LLTD-Mapper            
+Microsoft-Windows-LLTD-MapperIO          
+Microsoft-Windows-LLTD-Responder         
+Microsoft-Windows-LoadPerf               
+Microsoft-Windows-LUA                    
+Microsoft-Windows-Magnification          
+Microsoft-Windows-Management-SecureAssessment 
+Microsoft-Windows-MCCS-AccountAccessor   
+Microsoft-Windows-MCCS-AccountsHost      
+Microsoft-Windows-MCCS-AccountsRT        
+Microsoft-Windows-MCCS-ActiveSyncCsp     
+Microsoft-Windows-MCCS-ActiveSyncProvider 
+Microsoft-Windows-MCCS-DavSyncProvider   
+Microsoft-Windows-MCCS-EngineShared      
+Microsoft-Windows-MCCS-InternetMail      
+Microsoft-Windows-MCCS-InternetMailCsp   
+Microsoft-Windows-MCCS-NetworkHelper     
+Microsoft-Windows-MCCS-SyncController    
+Microsoft-Windows-MCCS-SyncUtil          
+Microsoft-Windows-Media-Streaming        
+Microsoft-Windows-MediaEngine            
+Microsoft-Windows-MediaFoundation-MFCaptureEngine 
+Microsoft-Windows-MediaFoundation-MFReadWrite 
+Microsoft-Windows-MediaFoundation-MSVProc 
+Microsoft-Windows-MediaFoundation-Performance 
+Microsoft-Windows-MediaFoundation-Performance-Core 
+Microsoft-Windows-MediaFoundation-Platform 
+Microsoft-Windows-MediaFoundation-PlayAPI 
+Microsoft-Windows-Memory-Diagnostic-Task-Handler 
+Microsoft-Windows-MemoryDiagnostics-Results 
+Microsoft-Windows-MemoryDiagnostics-Schedule 
+Microsoft-Windows-MF                     
+Microsoft-Windows-MFH264Enc              
+Microsoft-Windows-MFH265Enc              
+Microsoft-Windows-Minstore               
+Microsoft-Windows-MMCSS                  
+Microsoft-Windows-Mobile-Broadband-Experience-Api 
+Microsoft-Windows-Mobile-Broadband-Experience-Api-Internal 
+Microsoft-Windows-Mobile-Broadband-Experience-Parser-Task 
+Microsoft-Windows-Mobile-Broadband-Experience-SmsApi 
+Microsoft-Windows-Mobile-Broadband-Experience-SmsRouter 
+Microsoft-Windows-MobilityCenter         
+Microsoft-Windows-mobsync                
+Microsoft-Windows-MountMgr               
+Microsoft-Windows-MP4SDECD               
+Microsoft-Windows-MPEG2_DLNA-Encoder     
+Microsoft-Windows-Mprddm                 
+Microsoft-Windows-MPRMSG                 
+Microsoft-Windows-MPS-CLNT               
+Microsoft-Windows-MPS-DRV                
+Microsoft-Windows-MPS-SRV                
+Microsoft-Windows-MSDTC                  
+Microsoft-Windows-MSDTC 2                
+Microsoft-Windows-MSDTC Client           
+Microsoft-Windows-MSDTC Client 2         
+Microsoft-Windows-MSFTEDIT               
+Microsoft-Windows-MsiServer              
+Microsoft-Windows-MSMPEG2ADEC            
+Microsoft-Windows-MSMPEG2VDEC            
+Microsoft-Windows-msmpeg2venc            
+Microsoft-Windows-MSPaint                
+Microsoft-Windows-MUI                    
+Microsoft-Windows-Narrator               
+Microsoft-Windows-Narrator-Inproc        
+Microsoft-Windows-Ncasvc                 
+Microsoft-Windows-NcdAutoSetup           
+Microsoft-Windows-NCSI                   
+Microsoft-Windows-NDF-HelperClassDiscovery 
+Microsoft-Windows-NDIS                   
+Microsoft-Windows-NDIS-PacketCapture     
+Microsoft-Windows-NdisImPlatformEventProvider 
+Microsoft-Windows-NdisImPlatformSysEvtProvider 
+Microsoft-Windows-Ndu                    
+Microsoft-Windows-NetAdapterCim-Diag     
+Microsoft-Windows-Netshell               
+Microsoft-Windows-Network-and-Sharing-Center 
+Microsoft-Windows-Network-Connection-Broker 
+Microsoft-Windows-Network-DataUsage      
+Microsoft-Windows-Network-Setup          
+Microsoft-Windows-NetworkBridge          
+Microsoft-Windows-NetworkConnectivityStatus 
+Microsoft-Windows-NetworkGCW             
+Microsoft-Windows-Networking-Correlation 
+Microsoft-Windows-Networking-RealTimeCommunication 
+Microsoft-Windows-NetworkManagerTriggerProvider 
+Microsoft-Windows-NetworkProfile         
+Microsoft-Windows-NetworkProfileTriggerProvider 
+Microsoft-Windows-NetworkProvider        
+Microsoft-Windows-NetworkProvisioning    
+Microsoft-Windows-NetworkSecurity        
+Microsoft-Windows-NetworkStatus          
+Microsoft-Windows-NFC-ClassExtension     
+Microsoft-Windows-NlaSvc                 
+Microsoft-Windows-Ntfs                   
+Microsoft-Windows-Ntfs-SQM               
+Microsoft-Windows-Ntfs-UBPM              
+Microsoft-Windows-NTLM                   
+Microsoft-Windows-ntshrui                
+Microsoft-Windows-NWiFi                  
+Microsoft-Windows-OfflineFiles           
+Microsoft-Windows-OfflineFiles-CscApi    
+Microsoft-Windows-OfflineFiles-CscDclUser 
+Microsoft-Windows-OfflineFiles-CscFastSync 
+Microsoft-Windows-OfflineFiles-CscNetApi 
+Microsoft-Windows-OfflineFiles-CscService 
+Microsoft-Windows-OfflineFiles-CscUM     
+Microsoft-Windows-OLE-Perf               
+Microsoft-Windows-OLEACC                 
+Microsoft-Windows-OneBackup              
+Microsoft-Windows-OneX                   
+Microsoft-Windows-OOBE-FirstLogonAnim    
+Microsoft-Windows-OOBE-Machine-Core      
+Microsoft-Windows-OOBE-Machine-DUI       
+Microsoft-Windows-OOBE-Machine-Plugins   
+Microsoft-Windows-OOBE-Machine-Plugins-Wireless 
+Microsoft-Windows-OobeLdr                
+Microsoft-Windows-osk                    
+Microsoft-Windows-OtpCredentialProviderEvt 
+Microsoft-Windows-OverlayFilter          
+Microsoft-Windows-P2P-Mesh               
+Microsoft-Windows-P2P-PNRP               
+Microsoft-Windows-P2PIMSvc               
+Microsoft-Windows-PackageStateRoaming    
+Microsoft-Windows-ParentalControls       
+Microsoft-Windows-Partition              
+Microsoft-Windows-PCI                    
+Microsoft-Windows-PDC                    
+Microsoft-Windows-PDFReader              
+Microsoft-Windows-PDH                    
+Microsoft-Windows-PeerToPeerDrtEventProvider 
+Microsoft-Windows-PerceptionRuntime      
+Microsoft-Windows-PerceptionSensorDataService 
+Microsoft-Windows-PerfCtrs               
+Microsoft-Windows-PerfDisk               
+Microsoft-Windows-Perflib                
+Microsoft-Windows-PerfNet                
+Microsoft-Windows-Performance-Recorder-Control 
+Microsoft-Windows-PerfOS                 
+Microsoft-Windows-PerfProc               
+Microsoft-Windows-Photo-Image-Codec      
+Microsoft-Windows-PhotoAcq               
+Microsoft-Windows-PlayToManager          
+Microsoft-Windows-PnPMgrTriggerProvider  
+Microsoft-Windows-PNRPSvc                
+Microsoft-Windows-PortableDeviceStatusProvider 
+Microsoft-Windows-PortableDeviceSyncProvider 
+Microsoft-Windows-PortableWorkspaces-Creator-Tool 
+Microsoft-Windows-Power-Meter-Polling    
+Microsoft-Windows-Power-Troubleshooter   
+Microsoft-Windows-PowerCfg               
+Microsoft-Windows-PowerCpl               
+Microsoft-Windows-PowerShell             
+Microsoft-Windows-PowerShell-DesiredStateConfiguration-FileDownloadManager 
+Microsoft-Windows-PrimaryNetworkIcon     
+Microsoft-Windows-PrintBRM               
+Microsoft-Windows-PrintDialogs           
+Microsoft-Windows-PrintDialogs3D         
+Microsoft-Windows-PrintService           
+Microsoft-Windows-PrintService-USBMon    
+Microsoft-Windows-ProcessExitMonitor     
+Microsoft-Windows-Processor-Aggregator   
+Microsoft-Windows-ProcessStateManager    
+Microsoft-Windows-Program-Compatibility-Assistant 
+Microsoft-Windows-propsys                
+Microsoft-Windows-Provisioning-Diagnostics-Provider 
+Microsoft-Windows-Proximity-Common       
+Microsoft-Windows-PushNotifications-Developer 
+Microsoft-Windows-PushNotifications-InProc 
+Microsoft-Windows-PushNotifications-Platform 
+Microsoft-Windows-QoS-Pacer              
+Microsoft-Windows-QoS-qWAVE              
+Microsoft-Windows-QoS-WMI-Diag           
+Microsoft-Windows-RadioManager           
+Microsoft-Windows-Ras-AgileVpn           
+Microsoft-Windows-Ras-NdisWanPacketCapture 
+Microsoft-Windows-RasServer              
+Microsoft-Windows-RasSstp                
+Microsoft-Windows-ReadyBoost             
+Microsoft-Windows-ReadyBoostDriver       
+Microsoft-Windows-ReFS-v1                
+Microsoft-Windows-Registry-SQM-Provider  
+Microsoft-Windows-Remote-FileSystem-Log  
+Microsoft-Windows-Remote-FileSystem-Monitor 
+Microsoft-Windows-RemoteApp and Desktop Connections 
+Microsoft-Windows-RemoteAssistance       
+Microsoft-Windows-RemoteDesktopServices-RdpCoreTS 
+Microsoft-Windows-RemoteDesktopServices-RemoteFX-Synth3dvsc 
+Microsoft-Windows-RemoteDesktopServices-RemoteFX-VM-Kernel-Mode-Transport 
+Microsoft-Windows-RemoteDesktopServices-RemoteFX-VM-User-Mode-Transport 
+Microsoft-Windows-RemoteDesktopServices-SessionServices 
+Microsoft-Windows-Remotefs-Rdbss         
+Microsoft-Windows-ResetEng               
+Microsoft-Windows-ResetEng-Trace         
+Microsoft-Windows-Resource-Exhaustion-Detector 
+Microsoft-Windows-Resource-Exhaustion-Resolver 
+Microsoft-Windows-Resource-Leak-Diagnostic 
+Microsoft-Windows-ResourceManager        
+Microsoft-Windows-ResourcePublication    
+Microsoft-Windows-RestartManager         
+Microsoft-Windows-RetailDemo             
+Microsoft-Windows-RPC                    
+Microsoft-Windows-RPC-Events             
+Microsoft-Windows-RPC-FirewallManager    
+Microsoft-Windows-RPC-Proxy-LBS          
+Microsoft-Windows-RPCSS                  
+Microsoft-Windows-RRAS                   
+Microsoft-Windows-RTWorkQueue-Extended   
+Microsoft-Windows-RTWorkQueue-Threading  
+Microsoft-Windows-Runtime-Graphics       
+Microsoft-Windows-Runtime-Media          
+Microsoft-Windows-Runtime-Networking     
+Microsoft-Windows-Runtime-Networking-BackgroundTransfer 
+Microsoft-Windows-Runtime-Web-Http       
+Microsoft-Windows-Runtime-WebAPI         
+Microsoft-Windows-Schannel-Events        
+Microsoft-Windows-ScmBus                 
+Microsoft-Windows-ScmDisk0101            
+Microsoft-Windows-SCPNP                  
+Microsoft-Windows-Sdbus                  
+Microsoft-Windows-Sdstor                 
+Microsoft-Windows-Search                 
+Microsoft-Windows-Search-Core            
+Microsoft-Windows-Search-ProfileNotify   
+Microsoft-Windows-Search-ProtocolHandlers 
+Microsoft-Windows-SEC                    
+Microsoft-Windows-Security-Audit-Configuration-Client 
+Microsoft-Windows-Security-Auditing      
+Microsoft-Windows-Security-EnterpriseData-FileRevocationManager 
+Microsoft-Windows-Security-ExchangeActiveSyncProvisioning 
+Microsoft-Windows-Security-IdentityListener 
+Microsoft-Windows-Security-IdentityStore 
+Microsoft-Windows-Security-Kerberos      
+Microsoft-Windows-Security-Netlogon      
+Microsoft-Windows-Security-SPP           
+Microsoft-Windows-Security-SPP-UX        
+Microsoft-Windows-Security-SPP-UX-GC     
+Microsoft-Windows-Security-SPP-UX-GenuineCenter-Logging 
+Microsoft-Windows-Security-SPP-UX-Notifications 
+Microsoft-Windows-Security-UserConsentVerifier 
+Microsoft-Windows-Security-Vault         
+Microsoft-Windows-SendTo                 
+Microsoft-Windows-Sens                   
+Microsoft-Windows-SENSE                  
+Microsoft-Windows-Sensors                
+Microsoft-Windows-Serial-ClassExtension  
+Microsoft-Windows-Serial-ClassExtension-V2 
+Microsoft-Windows-ServiceReportingApi    
+Microsoft-Windows-Services               
+Microsoft-Windows-Services-Svchost       
+Microsoft-Windows-ServiceTriggerPerfEventProvider 
+Microsoft-Windows-Servicing              
+Microsoft-Windows-SettingSync            
+Microsoft-Windows-SettingSync-Azure      
+Microsoft-Windows-SettingSync-Desktop    
+Microsoft-Windows-Setup                  
+Microsoft-Windows-SetupCl                
+Microsoft-Windows-SetupPlatform          
+Microsoft-Windows-SetupQueue             
+Microsoft-Windows-SetupUGC               
+Microsoft-Windows-SharedAccess_NAT       
+Microsoft-Windows-ShareMedia-ControlPanel 
+Microsoft-Windows-Shell-AppWizCpl        
+Microsoft-Windows-Shell-AuthUI           
+Microsoft-Windows-Shell-ConnectedAccountState 
+Microsoft-Windows-Shell-Core             
+Microsoft-Windows-Shell-DefaultPrograms  
+Microsoft-Windows-Shell-LockScreenContent 
+Microsoft-Windows-Shell-OpenWith         
+Microsoft-Windows-Shell-Search-UriHandler 
+Microsoft-Windows-Shell-Shwebsvc         
+Microsoft-Windows-Shell-ZipFolder        
+Microsoft-Windows-Shsvcs                 
+Microsoft-Windows-SleepStudy             
+Microsoft-Windows-SmartCard-Audit        
+Microsoft-Windows-SmartCard-DeviceEnum   
+Microsoft-Windows-Smartcard-Server       
+Microsoft-Windows-SmartCard-TPM-VCard-Module 
+Microsoft-Windows-Smartcard-Trigger      
+Microsoft-Windows-SMBClient              
+Microsoft-Windows-SMBServer              
+Microsoft-Windows-SMBWitnessClient       
+Microsoft-Windows-SmbWmiProvider         
+Microsoft-Windows-SoftwareRestrictionPolicies 
+Microsoft-Windows-SPB-ClassExtension     
+Microsoft-Windows-SPB-HIDI2C             
+Microsoft-Windows-Speech-TTS             
+Microsoft-Windows-Speech-UserExperience  
+Microsoft-Windows-Spell-Checking         
+Microsoft-Windows-SpellChecker           
+Microsoft-Windows-Spellchecking-Host     
+Microsoft-Windows-SruMon                 
+Microsoft-Windows-SrumTelemetry          
+Microsoft-Windows-StackDB                
+Microsoft-Windows-StartLmhosts           
+Microsoft-Windows-StartupRepair          
+Microsoft-Windows-StateRepository        
+Microsoft-Windows-StickyNotes            
+Microsoft-Windows-stobject               
+Microsoft-Windows-Storage-Tiering        
+Microsoft-Windows-Storage-Tiering-IoHeat 
+Microsoft-Windows-StorageManagement      
+Microsoft-Windows-StorageManagement-WSP-FS 
+Microsoft-Windows-StorageManagement-WSP-Host 
+Microsoft-Windows-StorageManagement-WSP-Spaces 
+Microsoft-Windows-StorageSpaces-Driver   
+Microsoft-Windows-StorageSpaces-ManagementAgent 
+Microsoft-Windows-StorageSpaces-SpaceManager 
+Microsoft-Windows-StorDiag               
+Microsoft-Windows-Store                  
+Microsoft-Windows-StorPort               
+Microsoft-Windows-StorSqm                
+Microsoft-Windows-Subsys-Csr             
+Microsoft-Windows-Subsys-SMSS            
+Microsoft-Windows-Superfetch             
+Microsoft-Windows-Sysprep                
+Microsoft-Windows-System-Profile-HardwareId 
+Microsoft-Windows-System-Restore         
+Microsoft-Windows-SystemEventsBroker     
+Microsoft-Windows-SystemSettingsThreshold 
+Microsoft-Windows-TabletPC-CoreInkRecognition 
+Microsoft-Windows-TabletPC-InputPanel    
+Microsoft-Windows-TabletPC-InputPersonalization 
+Microsoft-Windows-TabletPC-MathInput     
+Microsoft-Windows-TabletPC-MathRecognizer 
+Microsoft-Windows-TabletPC-Platform-Input-Core 
+Microsoft-Windows-TabletPC-Platform-Input-Ninput 
+Microsoft-Windows-TabletPC-Platform-Input-Wisp 
+Microsoft-Windows-TabletPC-Platform-Manipulations 
+Microsoft-Windows-TaskbarCPL             
+Microsoft-Windows-TaskScheduler          
+Microsoft-Windows-TCPIP                  
+Microsoft-Windows-Tcpip-SQM-Provider     
+Microsoft-Windows-Telephony-PhoneOm      
+Microsoft-Windows-Telephony-PhoneProviders 
+Microsoft-Windows-Telephony-PhoneService 
+Microsoft-Windows-Telephony-PhoneUtil    
+Microsoft-Windows-Telephony-TelephonyInteractiveUser 
+Microsoft-Windows-Telephony-VoipRT       
+Microsoft-Windows-TerminalServices-ClientActiveXCore 
+Microsoft-Windows-TerminalServices-ClientUSBDevices 
+Microsoft-Windows-TerminalServices-LocalSessionManager 
+Microsoft-Windows-TerminalServices-MediaRedirection 
+Microsoft-Windows-TerminalServices-PnPDevices 
+Microsoft-Windows-TerminalServices-Printers 
+Microsoft-Windows-TerminalServices-RdpSoundDriver 
+Microsoft-Windows-TerminalServices-RemoteConnectionManager 
+Microsoft-Windows-TerminalServices-ServerUSBDevices 
+Microsoft-Windows-Tethering-Manager      
+Microsoft-Windows-Tethering-Station      
+Microsoft-Windows-TextPredictionEngine   
+Microsoft-Windows-ThemeCPL               
+Microsoft-Windows-ThemeUI                
+Microsoft-Windows-Thermal-Polling        
+Microsoft-Windows-Time-Service           
+Microsoft-Windows-TimeBroker             
+Microsoft-Windows-TPM-WMI                
+Microsoft-Windows-TriggerEmulatorProvider 
+Microsoft-Windows-TSF-msctf              
+Microsoft-Windows-TSF-msutb              
+Microsoft-Windows-TSF-UIManager          
+Microsoft-Windows-TunnelDriver           
+Microsoft-Windows-TunnelDriver-SQM-Provider 
+Microsoft-Windows-TZSync                 
+Microsoft-Windows-TZUtil                 
+Microsoft-Windows-UAC                    
+Microsoft-Windows-UAC-FileVirtualization 
+Microsoft-Windows-UI-Input-Inking        
+Microsoft-Windows-UI-Search              
+Microsoft-Windows-UI-Shell               
+Microsoft-Windows-UIAnimation            
+Microsoft-Windows-UIAutomationCore       
+Microsoft-Windows-UIRibbon               
+Microsoft-Windows-UniversalTelemetryClient 
+Microsoft-Windows-URLMon                 
+Microsoft-Windows-USB-UCX                
+Microsoft-Windows-USB-USBHUB             
+Microsoft-Windows-USB-USBHUB3            
+Microsoft-Windows-USB-USBPORT            
+Microsoft-Windows-USB-USBXHCI            
+Microsoft-Windows-User Device Registration 
+Microsoft-Windows-User Profiles General  
+Microsoft-Windows-User Profiles Service  
+Microsoft-Windows-User-ControlPanel      
+Microsoft-Windows-User-Diagnostic        
+Microsoft-Windows-User-Loader            
+Microsoft-Windows-UserAccountControl     
+Microsoft-Windows-UserDataAccess-CallHistoryClient 
+Microsoft-Windows-UserDataAccess-CEMAPI  
+Microsoft-Windows-UserDataAccess-PimIndexMaintenance 
+Microsoft-Windows-UserDataAccess-Poom    
+Microsoft-Windows-UserDataAccess-UnifiedStore 
+Microsoft-Windows-UserDataAccess-UserDataApis 
+Microsoft-Windows-UserDataAccess-UserDataService 
+Microsoft-Windows-UserDataAccess-UserDataUtils 
+Microsoft-Windows-UserModePowerService   
+Microsoft-Windows-UserPnp                
+Microsoft-Windows-UxInit                 
+Microsoft-Windows-UxTheme                
+Microsoft-Windows-VAN                    
+Microsoft-Windows-VDRVROOT               
+Microsoft-Windows-VerifyHardwareSecurity 
+Microsoft-Windows-VHDMP                  
+Microsoft-Windows-Video-For-Windows      
+Microsoft-Windows-Volume                 
+Microsoft-Windows-VolumeControl          
+Microsoft-Windows-VolumeSnapshot-Driver  
+Microsoft-Windows-VPN-Client             
+Microsoft-Windows-VWiFi                  
+Microsoft-Windows-WABSyncProvider        
+Microsoft-Windows-Wallet                 
+Microsoft-Windows-Wcmsvc                 
+Microsoft-Windows-WCN-Config-Registrar   
+Microsoft-Windows-WCN-Config-Registrar-Secure 
+Microsoft-Windows-WCNWiz                 
+Microsoft-Windows-WebAuth                
+Microsoft-Windows-WebcamExperience       
+Microsoft-Windows-WebdavClient-LookupServiceTrigger 
+Microsoft-Windows-WebIO                  
+Microsoft-Windows-WebServices            
+Microsoft-Windows-Websocket-Protocol-Component 
+Microsoft-Windows-WEPHOSTSVC             
+Microsoft-Windows-WER-Diag               
+Microsoft-Windows-WER-SystemErrorReporting 
+Microsoft-Windows-WFP                    
+Microsoft-Windows-WHEA-Logger            
+Microsoft-Windows-WiFiDisplay            
+Microsoft-Windows-WiFiHotspotService     
+Microsoft-Windows-WiFiNetworkManager     
+Microsoft-Windows-Win32k                 
+Microsoft-Windows-Windeploy              
+Microsoft-Windows-Windows Defender       
+Microsoft-Windows-Windows Firewall With Advanced Security 
+Microsoft-Windows-WindowsBackup          
+Microsoft-Windows-WindowsColorSystem     
+Microsoft-Windows-WindowsSystemAssessmentTool 
+Microsoft-Windows-WindowsToGo-StartupOptions 
+Microsoft-Windows-WindowsUIImmersive     
+Microsoft-Windows-WindowsUpdateClient    
+Microsoft-Windows-WinHttp                
+Microsoft-Windows-WinINet                
+Microsoft-Windows-WinINet-Capture        
+Microsoft-Windows-WinINet-Config         
+Microsoft-Windows-Wininit                
+Microsoft-Windows-WinJson                
+Microsoft-Windows-Winlogon               
+Microsoft-Windows-WinMDE                 
+Microsoft-Windows-WinRM                  
+Microsoft-Windows-WinRT-Error            
+Microsoft-Windows-Winsock-AFD            
+Microsoft-Windows-Winsock-NameResolution 
+Microsoft-Windows-Winsock-SQM            
+Microsoft-Windows-Winsock-WS2HELP        
+Microsoft-Windows-Winsrv                 
+Microsoft-Windows-Wired-AutoConfig       
+Microsoft-Windows-WLAN-AutoConfig        
+Microsoft-Windows-WLAN-BMRHandler        
+Microsoft-Windows-WLAN-Driver            
+Microsoft-Windows-WLAN-MediaManager      
+Microsoft-Windows-WlanConn               
+Microsoft-Windows-WlanDlg                
+Microsoft-Windows-WlanPref               
+Microsoft-Windows-WLGPA                  
+Microsoft-Windows-WMI                    
+Microsoft-Windows-WMI-Activity           
+Microsoft-Windows-WMP                    
+Microsoft-Windows-WMP-Setup_WM           
+Microsoft-Windows-WMPDMCUI               
+Microsoft-Windows-WMPNSS-PublicAPI       
+Microsoft-Windows-WMPNSS-Service         
+Microsoft-Windows-WMPNSSUI               
+Microsoft-Windows-wmvdecod               
+Microsoft-Windows-WMVENCOD               
+Microsoft-Windows-Wordpad                
+Microsoft-Windows-WorkFolders            
+Microsoft-Windows-Workplace Join         
+Microsoft-Windows-WPD-API                
+Microsoft-Windows-WPD-CompositeClassDriver 
+Microsoft-Windows-WPD-MTPBT              
+Microsoft-Windows-WPD-MTPClassDriver     
+Microsoft-Windows-WPD-MTPIP              
+Microsoft-Windows-WPD-MTPUS              
+Microsoft-Windows-WPDClassInstaller      
+Microsoft-Windows-WSC-SRV                
+Microsoft-Windows-WUSA                   
+Microsoft-Windows-WWAN-CFE               
+Microsoft-Windows-WWAN-MediaManager      
+Microsoft-Windows-WWAN-MM-EVENTS         
+Microsoft-Windows-WWAN-NDISUIO-EVENTS    
+Microsoft-Windows-WWAN-SVC-EVENTS        
+Microsoft-Windows-XAML                   
+Microsoft-Windows-XAML-Diagnostics       
+Microsoft-Windows-XAudio2                
+Microsoft-Windows-XWizards               
+Microsoft-WindowsPhone-CoreMessaging     
+Microsoft-WindowsPhone-CoreUIComponents  
+Microsoft-WindowsPhone-LocationServiceProvider 
+Microsoft-WindowsPhone-Ufx               
+Microsoft-WS-Licensing                   
+Microsoft.Windows.ResourceManager        
+MMC                                      
+Mobility Center Performance Trace        
+Mobility Center Trace                    
+Mount Manager Trace                      
+MSADCE.1                                 
+MSADCF.1                                 
+MSADCO.1                                 
+MSADDS.1                                 
+MSADOX.1                                 
+MSDADIAG.ETW                             
+MSDAPRST.1                               
+MSDAREM.1                                
+MSDART.1                                 
+MSDASQL_1                                
+MSDATL3.1                                
+msiscsi_iScsi                            
+MUI Resource Trace                       
+Multimedia-HEVCDECODER                   
+Native WIFI Filter Driver Trace          
+Native WIFI MSM Trace                    
+NetJoin                                  
+Network Location Awareness Trace         
+Network Profile Manager                  
+NisDrvWFP Provider                       
+NSC IrDA Driver                          
+Ntfs                                     
+Ntfs_NtfsLog                             
+NTLM Security Protocol                   
+ODBC.1                                   
+ODBCBCP.1                                
+OfficeAirSpace                           
+OfficeLoggingLiblet                      
+OLEDB.1                                  
+Partition Manager Trace                  
+PNPX AssocDB Trace                       
+Portable Device Connectivity API Trace   
+PrintFilterPipelineSvc_ObjectsGuid       
+RdpCore Api Trace                        
+RDPEncComTrace                           
+Refsv1WppTrace                           
+RmClient_RestartManager                  
+RowsetHelper.1                           
+RSS Platform Backgroundsync Perf Trace   
+RSS Platform Backgroundsync Trace        
+RSS Platform Perf Trace                  
+RSS Platform Trace                       
+SBP2 Port Driver Tracing Provider        
+Schannel                                 
+SD Bus Trace                             
+Security: Kerberos Authentication        
+Security: NTLM Authentication            
+Security: SChannel                       
+Security: TSPkg                          
+Security: WDigest                        
+Sensor ClassExtension Trace              
+Service Control Manager                  
+Service Control Manager Trace            
+SetupAPI Trace                           
+SQLOLEDB_1                               
+SQLSRV32.1                               
+TCPIP Service Trace                      
+TerminalServer-MediaFoundationPlugin     
+Thread Pool                              
+TPM                                      
+TS Client ActiveX Control Trace          
+TS Client Trace                          
+TS Rdp Init Trace                        
+TS RDP Shell Trace                       
+TS Rdp Sound End Point Trace             
+UMB Trace                                
+UmBus Driver Trace                       
+UMDF - Driver Manager Trace              
+UMDF - Framework Trace                   
+UMDF - Host Process Trace                
+UMDF - Lpc Driver Trace                  
+UMDF - Lpc Trace                         
+UMDF - Platform Library Trace            
+UMDF - Reflector Trace                   
+UMDF - Test Trace                        
+UMDF - WDF Core                          
+UMPass Driver Trace                      
+USB Storage Driver Tracing Provider      
+User32                                   
+Volsnap                                  
+VSS tracing provider                     
+Windows Connect Now                      
+Windows Firewall API                     
+Windows Firewall API - GP                
+Windows Firewall Driver                  
+Windows Firewall NetShell Plugin         
+Windows Firewall Service                 
+Windows Kernel Trace                     
+Windows Media Player Trace               
+Windows NetworkItemFactory Trace         
+Windows Notification Facility Provider   
+Windows Remote Management Trace          
+Windows Wininit Trace                    
+Windows Winlogon Trace                   
+Windows-ApplicationModel-Store-SDK       
+WINSATAPI_ETW_PROVIDER                   
+Wireless Client Trace                    
+WLAN AutoConfig Trace                    
+WLAN Diagnostics Trace                   
+WLAN Dialog Trace                        
+WLAN Extensibility Trace                 
+WLAN HC Diagnostics Trace                
+WMDM API Trace                           
+WMI_Tracing                              
+WMI_Tracing_Client_Operations            
+WMP Network Sharing API                  
+WMP Network Sharing Service              
+WMP Network Sharing Taskbar              
+WPD API Trace                            
+WPD Bluetooth MTP Emumerator Driver Trace 
+WPD BusEnumService Trace                 
+WPD ClassExtension Trace                 
+WPD ClassInstaller Trace                 
+WPD Composite Driver Trace               
+WPD FSDriver Trace                       
+WPD ShellExtension Trace                 
+WPD ShellServiceObject Trace             
+WPD Types Trace                          
+WPD WMDMCompat Trace                     
+WSAT_TraceProvider                       
+Wudfx02000_KmdfTraceGuid                 
+XWizard Framework                        

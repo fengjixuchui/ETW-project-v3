@@ -20,7 +20,8 @@ VOID WINAPI Trace_parser::parser_event(PEVENT_RECORD Buffer) {
 	//wcout << "------------call back function get record successfully----------------" << endl;
 
 	// 验证了猜想 - ExtendData是数组的形式存在后面的
-	wcout << Buffer->EventHeader.ProviderId.Data1 << " - " << Buffer->EventHeader.EventDescriptor.Id << endl;
+	wcout << hex << Buffer->EventHeader.ProviderId.Data1 << " - ";
+	wcout << dec << Buffer->EventHeader.EventDescriptor.Opcode << endl;
 	PEVENT_HEADER_EXTENDED_DATA_ITEM ExtendedData_array = (Buffer->ExtendedData);
 	PEVENT_EXTENDED_ITEM_STACK_TRACE64 PStack64;
 	for (int i = 0; i < Buffer->ExtendedDataCount; i++, ExtendedData_array++) {
@@ -33,11 +34,11 @@ VOID WINAPI Trace_parser::parser_event(PEVENT_RECORD Buffer) {
 		//				  }
 		if (ExtendedData_array->ExtType == 6) {
 			PStack64 = (PEVENT_EXTENDED_ITEM_STACK_TRACE64)ExtendedData_array->DataPtr;
-			wcout << PStack64->MatchId << endl;
+			wcout << hex << PStack64->MatchId << endl;
 			for (int j = 0; j < (ExtendedData_array->DataSize - 4) / 4; j++){
 				wcout << PStack64->Address[j] << ",";
 			}
-			wcout << endl;
+			wcout << dec << endl;
 		}
 	}
 

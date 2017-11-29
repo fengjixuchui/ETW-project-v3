@@ -10,6 +10,7 @@
 
 #include "etw_control.h"
 #include "trace_parser.h"
+#include "manifestbased_provider_guid.h"
 
 
 // Attention here!!
@@ -21,10 +22,9 @@ using namespace std;
 //void enumerate_providers();
 
 int main(int argc, char *argv[]) {
-	//Microsoft-Windows-Eventlog  {D8909C24-5BE9-4502-98CA-AB7BDC24899D}
-	GUID provider_guid_eventlog = { 0xAE4BD3BE, 0xF36F, 0x45B6,{ 0x8D, 0x21, 0xBD, 0xD6, 0xFB, 0x83, 0x28, 0x53 } };
-	//Microsoft-Windows-Audio AE4BD3BE-F36F-45B6-8D21-BDD6FB832853
-	GUID provider_guid_audio = { 0xD8909C24, 0x5BE9, 0x4502,{ 0x98, 0xCA, 0xAB, 0x7B, 0xDC, 0x24, 0x89, 0x9D } };
+
+	system("logman stop \"NT Kernel Logger\" -ets");
+
 	//Microsoft-Windows-Kernel-File EDD08927-9CC4-4E65-B970-C2560FB5C289
 	GUID provider_guid_file = { 0xEDD08927, 0x9CC4, 0x4E65,{ 0xB9, 0x70, 0xC2, 0x56, 0x0F, 0xB5, 0xC2, 0x89 } };
 	GUID provider_guid = provider_guid_file;
@@ -35,16 +35,17 @@ int main(int argc, char *argv[]) {
 	//p2session_properties->Wnode.BufferSize = 1024;
 	//TDHSTATUS query_status = QueryTrace(NULL, KERNEL_LOGGER_NAME, p2session_properties);
 
-
-	Etw_control etw;
+	wstring kernel_name(KERNEL_LOGGER_NAME);
+	Etw_control etw(kernel_name);
+	//Etw_control etw;
 	Trace_parser parser;
 
-	TDHSTATUS provider_status = etw.enable_etw_provider(&provider_guid_file);
-	if (ERROR_SUCCESS != provider_status) {
-		wprintf(L"enable_etw_provider() failed with %lu!\n", provider_status);
-	}
-	else 
-		wprintf(L"enable_etw_provider() successfully!\n");
+	//TDHSTATUS provider_status = etw.configure_etw_provider(&GUID(Microsoft_Windows_USB_USBPORT));
+	//if (ERROR_SUCCESS != provider_status) {
+	//	wprintf(L"enable_etw_provider() failed with %lu!\n", provider_status);
+	//}
+	//else 
+	//	wprintf(L"enable_etw_provider() successfully!\n");
 
 	//TDHSTATUS process_status = ProcessTrace(&etw.trace_handle, 1, 0, 0);
 	//if (ERROR_SUCCESS == process_status) {

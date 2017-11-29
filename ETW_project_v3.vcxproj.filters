@@ -38,6 +38,12 @@
     <ClInclude Include="manifest_parser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="manifestbased_provider_guid.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ntkernel_provider_guid.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
